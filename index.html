@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!--uses latest version of edge or chrome-->
+    <title>Project_Search</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <style>
+        .search .box {
+            margin: auto;
+            margin-top: 5%;
+            background:#7cc1fd;
+            padding: 20px 10px;
+            border-radius: 10px;
+            width: 80%;
+            height: 30px;
+            font-size: 15px;
+            color: #7cc1fd;
+        }
+        .search input[type=text] {
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            border: 0.2px solid #5aa3e2;
+            border-radius: 10px;
+            background: #94cdff;
+            color: #d2eaff;
+            font-size: 15px;
+            box-sizing: border-box;
+            padding: 20px 20px;
+            margin-top: -0.7%;
+        }
+        ::placeholder {
+          color:  #d2eaff;
+        }
+    </style>
+</head>
+<body>
+    <div class = "search">
+        <div class = "box">
+            <input id="search_box" style="font-size: 15px; text-align: center;" type="text" placeholder="Search To Begin..." onkeyup="filterLessons()">
+        </div>
+    </div>
+</body>
+</html>
